@@ -1,0 +1,86 @@
+
+	.hedr{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		border: 1px solid grey;
+		width: 100%;
+		height: 100px;
+		background-color: #003580;
+	}
+	.logo{
+		border: 1px solid white;
+		width: 20%;
+		height: 40px;
+	}
+	.userform{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		border: 1px solid white;
+		width: 80%;
+		height: 100px;
+	}
+	.curensi{
+		border: 1px solid white;
+		width: 20%;
+		height: 40px;
+	}
+	.lunguage{
+		border: 1px solid white;
+		width: 20%;
+		height: 40px;
+	}
+	.bakkonnekhn{
+		border: 1px solid white;
+		width: 20%;
+		height: 40px;
+	}
+	.register{
+		border: 1px solid white;
+		width: 20%;
+		height: 40px;
+	}
+	.signin{
+		border: 1px solid white;
+		width: 20%;
+		height: 40px;
+	}
+	.hedr{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		border: 1px solid grey;
+		width: 100%;
+		height: 100px;
+		background-color: #003580;
+	
+	}
+	.home{
+		border: 1px solid white;
+		width: 20%;
+		height: 40px;
+	}
+	.car{
+		border: 1px solid white;
+		width: 20%;
+		height: 40px;
+	}
+	.avia{
+		border: 1px solid white;
+		width: 20%;
+		height: 40px;
+	}
+	.attractions{
+		border: 1px solid white;
+		width: 20%;
+		height: 40px;
+	}
+	.taxi{
+		border: 1px solid white;
+		width: 20%;
+		height: 40px;
+	}
