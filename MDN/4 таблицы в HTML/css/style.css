@@ -23,11 +23,11 @@ td {
 }
 
 tr:nth-child(even) td {
-  background-color: #032149;
+  /*background-color: #032149;*/
 }
 
 tr:nth-child(odd) td {
-  background-color: #032149;
+  /*background-color: #032149;*/
 }
 
 caption {
