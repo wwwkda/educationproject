@@ -74,14 +74,34 @@
 		border: 1px solid white;
 		height: 40px;
 	}
-	.bui-alert_text{
-		background-color: #fefbf0;
+	.coronavirus-main-funnel-banner{
+		background-color: #d3c99b;
 		width: 100%;
 		height: 100px;
+		border: 1px solid grey;
 	}
-	.xpi__content__wrapper.xpi__content__wrappergray{
-		background-attachment: red;
-		width: 50%;
-		height: 40px;
+	.xpi-content-wrapper-xpi-content-wrappergray{
+		background-color: #cfcf;
+		width: 100%;
+		height: 620px;
+		padding: -1px;
 	}
-	
+	.bodyconstraint{
+		background-color: rgb(204, 255, 255);
+		width: 100%;
+		height: 440px;
+	}
+	.slinks{
+		background-color: #cff;
+		width: 100%;
+		height: 340px;
+		border: 1px solid grey;
+	}
+	.footer-menu-track{
+		background-color: #003580;;
+		width: 100%;
+		height: 200px;
+		border: 1px solid grey
+		height: 240px;
+		color: white
+	}
