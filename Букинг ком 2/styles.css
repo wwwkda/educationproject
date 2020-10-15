@@ -8,10 +8,13 @@
 		height: 100px;
 		background-color: #003580;
 	}
-	.logo{
+	.logo {
 		border: 1px solid white;
 		width: 20%;
 		height: 40px;
+		background-image: url('./image/logo.png');
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	.userform{
 		display: flex;
