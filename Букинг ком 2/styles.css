@@ -3,101 +3,147 @@
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		border: 1px solid grey;
 		width: 100%;
 		height: 100px;
 		background-color: #003580;
 	}
 	.logo {
-		border: 1px solid white;
 		width: 20%;
 		height: 40px;
 		background-image: url('./image/logo.png');
 		background-size: cover;
 		background-repeat: no-repeat;
+
 	}
 	.userform{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		border: 1px solid white;
 		width: 80%;
 		height: 100px;
 		color: white;
 		text-align: center;
 	}
 	.curensi{
-		border: 1px solid white;
 		width: 20%;
 		height: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.lunguage{
-		border: 1px solid white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		width: 20%;
 		height: 40px;
+
+		/*background-image: url('./image/flag.png');
+		background-size: cover;
+		background-repeat: no-repeat;*/
 	}
 	.bakkonnekhn{
-		border: 1px solid white;
 		width: 20%;
 		height: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		fill: currentColor;
+	}
+	.registeredobject{
+		border: 1px solid white;
+		width: 25%;
+		height: 40px;
+		justify-content: center;
+		display: flex;
+		font-size: 14px;
+		line-height: 25px; 
+		align-items: center;
+		margin-right: 15px;
+
 	}
 	.register{
 		border: 1px solid white;
 		width: 20%;
-		height: 40px;
-		background: #ffff;
-		color: #333;
+		height: 30px;
+		background: #fff;
+		color: #003580; 
 		font-weight: bold;
-		padding: 7px 10px;  
-		display: inline;
-		border-radius: 3px;
+		padding: 5px 10px;
+		font-size: 14px;
+		line-height: 25px;
+		align-items: center;
+		margin-right: 15px;
 	}
 	.signin{
 		border: 1px solid white;
 		width: 20%;
-		height: 40px;
-		background:#ffff;
-		color: #333;
+		height: 30px;
+		background: #fff;
+		color: #003580; 
 		font-weight: bold;
-		padding: 7px 10px;
-		display: inline;
-		border-radius: 3px;
+		padding: 5px 10px;
+		font-size: 14px;
+		line-height: 25px;
+		align-items: center;
+		margin-right: 15px;
+
 	}
  	.downblok{
  		justify-content: flex-start;
  		height: 50px;
+
  	}
  	.bui{
  		width: 17%;
  		color: white;
  		text-align: right;
+ 		align-items: center;
+ 		margin-right: 8px;
+ 		fill: currentColor;
+
  	}
 	.home{
 		border: 1px solid white;
 		height: 40px;
+		display: flex;
+		align-items: center;
+	}
+	.icon{
+		display: flex;
+	}
+	.bk-icon{
+		color: white;
 	}
 	.car{
 		border: 1px solid white;
 		height: 40px;
+		display: flex;
 	}
 	.avia{
 		border: 1px solid white;
 		height: 40px;
+		display: flex;
 	}
 	.attractions{
 		border: 1px solid white;
 		height: 40px;
+		display: flex;
 	}
 	.taxi{
 		border: 1px solid white;
 		height: 40px;
+		display: flex;
 	}
 	.coronavirus-main-funnel-banner{
 		background-color: #fefbf0;
 		border-color: #ffe08a
 		width: 100%;
 		height: 150px;
+	}
+	.bui-alert-info{
+
 	}
 	.xpi-content-wrapper-xpi-content-wrappergray{
 		background-color: #cfcf;
