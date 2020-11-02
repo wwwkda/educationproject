@@ -10,10 +10,15 @@
 	.logo {
 		width: 20%;
 		height: 40px;
-		background-image: url('./image/logo.png');
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+		/*background-image: url('./image/logo.png');
 		background-size: cover;
-		background-repeat: no-repeat;
-
+		background-repeat: no-repeat;*/
+	}
+	#logo-image{
+		width: 50%;
 	}
 	.userform{
 		display: flex;
@@ -105,13 +110,11 @@
  		align-items: center;
  		margin-right: 8px;
  		fill: currentColor;
-
  	}
 	.home{
 		border: 1px solid white;
 		height: 40px;
 		display: flex;
-		align-items: center;
 	}
 	.icon{
 		display: flex;
@@ -127,6 +130,7 @@
 	.avia{
 		border: 1px solid white;
 		height: 40px;
+		display: block;
 		display: flex;
 	}
 	.attractions{
@@ -140,20 +144,100 @@
 		display: flex;
 	}
 	.coronavirus-main-funnel-banner{
-		background-color: #fefbf0;
-		border-color: #ffe08a
-		width: 100%;
-		height: 150px;
+		border: 1px solid gray;
 	}
 	.bui-alert-info{
+		background-color: #fefbf0;
+		display: flex;
+		justify-content: center; /*распледеление флексов вдоль оси*/
+	
 
 	}
-	.xpi-content-wrapper-xpi-content-wrappergray{
-		background-color: #cfcf;
-		width: 100%;
-		height: 620px;
-		padding: -1px;
+	.bui-alert-icon{
+		fill: #cd8900;
+		margin-right: 16px;
+		width: 24px;
+		height: 24px;
+		margin-top: 5px; /*отступ от верхнего края*/
+	}	
+	.bui-alert-description{
+		border: 1px solid gray;
+		margin: 5px; /*отступ края элемента*/
+		padding: 5px; /*отступ от края границы до текста*/
+		width: 1038px; /*ширина элемента*/
+		height: 108px; /*высота элемента*/
+		color: #333;
+		
+	}	
+	.bui-alert-title{
+		font-size: 16px; /*Размер шрифта*/
+		font-weight: 700; /*Насыщенность шрифта*/
+		line-height: 1.2; /*Расстояние между строк*/
 	}
+	}
+	.bui-alert-text-a{
+		font-weight: normal;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 20px;
+	}
+	.bui-alert-text-b{
+		font-weight: normal;
+		color: #005c9d;
+		font-size: 14px;
+		line-height: 20px;
+		text-decoration: none;
+
+	}
+	.xpi-content-wrapper{
+		background: #f5f5f5;
+		
+	}
+	.xpi-content-wrappergray{
+		padding: 10px;
+		width: 100%;
+		height: 260px;
+		border: 1px solid gray;
+	}
+	.xpi-searchbox{
+		border: 1px solid gray;
+		margin: 0px 183px;
+		padding: 44px 5px;
+		width: 1100px;
+		height: 172px;
+	}
+	.sb-searchbox-titele{
+		border: 1px solid gray;
+		width: 1100px;
+		height: 32px;
+		font-size: 24px;
+		line-height: 32px;
+		font-weight: 600;
+		color: #333;
+	}	
+	.sb-searchbox-subtitele-text{
+		width: 1100px;
+		height: 20px;
+		border: 1px solid gray;
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: 400;
+		color: #333;
+	}
+	.sb-searchbox-outer{
+		width: 1100px;
+		height: 96px;
+		border: 1px solid gray;
+	}
+	.xp-fieldset-accommodation{
+		width: 1092;
+		height: 52;
+		padding: 4px;
+		border: 1px solid gray;
+
+	}
+
 	.bodyconstraint{
 		background-color: rgb(204, 255, 255);
 		width: 100%;
@@ -178,4 +262,8 @@
 		.bui{
 			min-width: 168px;
 		}
+		@media(max-width: 1001px)
+	{
+		.curensi
+			min-width: 168px;
 	}
