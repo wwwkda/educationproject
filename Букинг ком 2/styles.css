@@ -144,12 +144,17 @@
 		display: flex;
 	}
 	.coronavirus-main-funnel-banner{
+		width: 1078px;
+		padding: 16px;
+		margin: 0 183px 0 183px;
+		background-color: #fefbf0;
 		
 	}
 	.bui-alert-info{
 		background-color: #fefbf0;
 		display: flex;
 		justify-content: center; /*распледеление флексов вдоль оси*/
+		
 	
 
 	}
@@ -214,18 +219,19 @@
 	
 	}
 	.xpi-searchbox{
-	
-		margin: 0px 183.800px;
-		padding: 44px 5px;
+		margin: 0px 183px;
+		padding: 20px 5px;
 		width: 1100px;
-		height: 172px;
+		height: 190px;
+		border: 1px solid #000;
 	}
 	.sb-searchbox-titele{
 		width: 1100px;
-		height: 32px;
+		height: 25px;
 		font-size: 28px;
 		font-weight: 600;
 		color: #333;
+
 	}	
 	.sb-searchbox-subtitele-text{
 		width: 1100px;
