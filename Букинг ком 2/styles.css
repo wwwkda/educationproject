@@ -1,3 +1,8 @@
+	body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	.hedr{
 		display: flex;
 		flex-direction: row;
@@ -144,10 +149,13 @@
 		display: flex;
 	}
 	.coronavirus-main-funnel-banner{
-		width: 1078px;
-		padding: 16px;
-		margin: 0 183px 0 183px;
-		background-color: #fefbf0;
+		display: flex;
+	    flex-direction: row;
+	    justify-content: center;
+	    width: 1110px;
+	    /* padding: 16px; */
+	    /* margin: 0 20%; */
+	    background-color: #fefbf0;
 		
 	}
 	.bui-alert-info{
@@ -208,19 +216,23 @@
 	}*/
 	.xpi-content-wrapper{
 		background: #f5f5f5;
-		width: 100%;
-		
-		
+	    width: 100%;
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: center;
 	}
 	.xpi-content-wrappergray{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
 		padding: 10px;
-		width: 1460;
+		width: 1110px;
 		height: 260px;
 	
 	}
 	.xpi-searchbox{
-		margin: 0px 183px;
-		padding: 20px 5px;
+		/*margin: 0px 183px;
+		padding: 20px 5px;*/ /*когда используем флексы, марджины и пэддинги не используются для выравнивания на странице*/
 		width: 1100px;
 		height: 190px;
 		border: 1px solid #000;
@@ -241,9 +253,23 @@
 		color: #333;
 	}
 	.sb-searchbox-outer{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
 		width: 1100px;
 		height: 96px;
 	
+	}
+	.bui-checkbox-xp-travel-purpose {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.serarch-form {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
 	}
 	.search{
 		display: flex;
@@ -255,31 +281,34 @@
 		padding: 4px;
 		background-color: #febb02;
 		margin: 24px 0 16px 0;
-
+		width: 25%;
 	}
 	input{
 		border: 1px solid green;
 
 	}
+	#searchfield, #checkinfield, #checkoutfield, #submitfield {
+	    width: 100%;
+	}
 	#searchfield{
-		width: 356px;
+		/*width: 356px;*/
 		height: 52px;
 	}
 	#checkinfield{
-		width: 192.800px;
+		/*width: 192.800px;*/
 		height: 52px;
-		padding: 0 4px;
+		/*padding: 0 4px;*/
 	} 
 	#checkoutfield{
-		width: 227.600px;
+		/*width: 227.600px;*/
 		height: 52px;
-		padding: 0 40px 0 46px;
+		/*padding: 0 40px 0 46px;*/
 
 	}
 	#submitfield{
-		width: 153.600px;
+		/*width: 153.600px;*/
 		height: 42px;
-		padding: 5px 32px;
+		/*padding: 5px 32px;*/
 	}
 	.travel-purpose-checkbox{
 	}
@@ -313,7 +342,7 @@
 		height: 240px;
 		color: white
 	}
-	@media(max-width: 1001px)
+	/*@media(max-width: 1001px)
 	{
 		.bui{
 			min-width: 168px;
@@ -322,4 +351,9 @@
 	{
 		.curensi
 			min-width: 168px;
+	}*/
+	@media(min-width: 1800px){
+		.registeredobject {
+			font-size: 1vw;
+		}
 	}
