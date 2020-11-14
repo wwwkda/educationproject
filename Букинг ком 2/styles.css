@@ -108,7 +108,7 @@
  		color: white;
  		/*text-align: right;*/
  		align-items: center;
- 		margin-right: 6px;
+ 		margin-right: 25px;
  		fill: currentColor;
  	}
 	.home{
@@ -147,7 +147,7 @@
 		width: 1078px;
 		padding: 16px;
 		margin: 0 183px 0 183px;
-		background-color: #fefbf0;
+		
 		
 	}
 	.bui-alert-info{
@@ -214,7 +214,7 @@
 	}
 	.xpi-content-wrappergray{
 		padding: 10px;
-		width: 1460;
+		width: 1460px;
 		height: 260px;
 	
 	}
