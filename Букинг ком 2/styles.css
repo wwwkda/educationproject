@@ -357,7 +357,8 @@
 		justify-content: flex-start;
 	}
 	#pc1 {
-		background-image: url('./image/spas-na-krovi.jpg');
+		/*background-image: url('./image/spas-na-krovi.jpg');*/
+		background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/620004.webp?k=55e4854fef3cbb99a0af05650b27f4d3df84646bd30dda1134f51c3abb4c8e6a&o=);
 		background-repeat: no-repeat;
 		background-position: center center; 
 		background-size: cover;
