@@ -297,9 +297,9 @@
 		margin: 20px 0 10px 0;
 		width: 25%;
 	}
-	input{
+	.inputconteyner input{
 		border: 1px solid green; /*внутренние границы*/
-
+		padding: 0;
 	}
 	#searchfield, #checkinfield, #checkoutfield, #itfield{
 	    width: 100%;
@@ -328,7 +328,7 @@
 	.bodyconstraint{
 		border: 1px solid #000;
 		background-color: #ffff;
-		width: 1460px;
+		width: 100%;
 		height: 1814px;
 		padding: 35px 0 3px 0;
 	}
@@ -336,27 +336,92 @@
 		border: 1px solid #000;
 		background-color: #fff;
 		margin: 0 183px 0 183px;
-		width: 1110px;
+		/*width: 1110px;*/
 		height: 2175px;
 		padding: 10px 0 0 0;
 	}
 	.promotion-postcards{
 		padding-bottom: 15px;
-		width: 1110px;
+		/*width: 1110px;*/
 		height: 270px;
 		border: 1px solid #9f9;
 		display: flex;
 		justify-content: space-between; /*Элементы отображаются с одинаковыми отступами между ними*/
 	}
-	.promotion-postcards-large1{
-		width: 545px;
+	.promotion-postcards-large{
+		width: 49%;
 		height: 270px;
 		border: 1px solid #f69;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
 	}
-	.promotion-postcards-large2{
-		width: 545px;
-		height: 270px;
-		border: 1px solid #f69;
+	#pc1 {
+		background-image: url('./image/spas-na-krovi.jpg');
+		background-repeat: no-repeat;
+		background-position: center center; 
+		background-size: cover;
+	}
+	.in-postcard-top-block{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		width: 100%;
+		border: 1px solid red;
+		height: 25%;
+	}
+	.in-postcard-header {
+		border: 1px solid red;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.in-postcard-header h3 {
+		width: 50%;
+		height: fit-content;/*в данном случае высота блока будет зависеть от высоты его содержимого(т.е. размера шрифта)*/
+		border: 1px solid red;
+		margin: 0;
+	}
+	.icon-flag{
+		width: 50%;
+		border: 1px solid red;
+		font-size: 14px;
+	}
+	.checkin-variants{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		width: 50%;
+		height: fit-content;
+		border: 1px solid red;
+	}
+	.checkin-variants h6 {
+		margin: 0;
+	}
+	.down-block{
+		border: 1px solid red;
+		height: 74%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+	.middle-price {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		border: 1px solid red;
+		color: white;
+	}
+	.middle-price h5 {
+		border: 1px solid red;
+		color: white;
+		margin: 0;
+	}
+	.price {
+		border: 1px solid red;
 	}
 	.promotion-postcards-row{
 		padding-bottom: 15px;
