@@ -3,20 +3,29 @@
 		flex-direction: column;
 		align-items: center;
 	}
-	.hedr{
+	
+	.heder{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
 		width: 100%;
-		height: 100px;
+		height: 60px;
 		background-color: #003580;
+	}
+	.heder-1110{
+		width: 1110px;
+		height: 50px;
+		margin: 0 183px;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
 	}
 	.logo {
 		width: 20%;
 		height: 50px;
 		display: flex;
-    	justify-content: center;
+    	justify-content: flex-start;
     	align-items: center;
 		/*background-image: url('./image/logo.png');
 		background-size: cover;
@@ -28,7 +37,7 @@
 	.userform{
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content: flex-end;
 		align-items: center;
 		width: 80%;
 		height: 100px;
@@ -101,9 +110,21 @@
 
 	}
  	.hedr-downblok{
- 		justify-content: flex-start;
+ 		/*justify-content: flex-start;
  		height: fit-content;
- 		flex-wrap: wrap;
+ 		flex-wrap: wrap;*/
+ 		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: stretch;
+		width: 100%;
+		height: 50px;
+		background-color: #003580;
+ 	}
+ 	.hedr-downblok-1110{
+ 		width: 1110px;
+ 		height: 150px;
+ 		display: flex;
  	}
  	.bui{
  		/*display: flex;*/
@@ -225,7 +246,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		padding: 10px;
+		padding: 5px;
 		width: 1110px;
 		height: 260px;
 	
@@ -234,7 +255,6 @@
 		/*margin: 0px 183px;
 		padding: 20px 5px;*/ /*когда используем флексы, марджины и пэддинги не используются для выравнивания на странице*/
 		width: 1100px;
-		height: 190px;
 		border: 1px solid #000;
 	}
 	.sb-searchbox-titele{
@@ -262,7 +282,7 @@
 	}
 	.bui-checkbox-xp-travel-purpose {
 		width: 100%;
-		display: flex;
+		/*display: flex;*/
 		flex-direction: column;
 	}
 	.serarch-form {
@@ -277,17 +297,17 @@
 
 	}
 	.inputconteyner{
-		border: 1px solid red;
+		border: 1px solid red; /*внешние границы*/
 		padding: 4px;
 		background-color: #febb02;
-		margin: 24px 0 16px 0;
+		margin: 20px 0 10px 0;
 		width: 25%;
 	}
 	input{
-		border: 1px solid green;
+		border: 1px solid green; /*внутренние границы*/
 
 	}
-	#searchfield, #checkinfield, #checkoutfield, #submitfield {
+	#searchfield, #checkinfield, #checkoutfield, #itfield{
 	    width: 100%;
 	}
 	#searchfield{
@@ -303,18 +323,17 @@
 		/*width: 227.600px;*/
 		height: 52px;
 		/*padding: 0 40px 0 46px;*/
-
 	}
-	#submitfield{
+	#itfield{
 		/*width: 153.600px;*/
-		height: 42px;
+		height: 52px;
 		/*padding: 5px 32px;*/
 	}
 	.travel-purpose-checkbox{
 	}
 	.bodyconstraint{
 		border: 1px solid #000;
-		background-color: rgb(204, 255, 255);
+		background-color: #ffff;
 		width: 1460px;
 		height: 1814px;
 		padding: 35px 0 3px 0;
@@ -324,9 +343,98 @@
 		background-color: #fff;
 		margin: 0 183px 0 183px;
 		width: 1110px;
-		height: 1800px;
+		height: 2175px;
 		padding: 10px 0 0 0;
-
+	}
+	.promotion-postcards{
+		padding-bottom: 15px;
+		width: 1110px;
+		height: 270px;
+		border: 1px solid #9f9;
+		display: flex;
+		justify-content: space-between; /*Элементы отображаются с одинаковыми отступами между ними*/
+	}
+	.promotion-postcards-large1{
+		width: 545px;
+		height: 270px;
+		border: 1px solid #f69;
+	}
+	.promotion-postcards-large2{
+		width: 545px;
+		height: 270px;
+		border: 1px solid #f69;
+	}
+	.promotion-postcards-row{
+		padding-bottom: 15px;
+		width: 1110px;
+		height: 270px;
+		border: 1px solid #9f9;
+		display: flex;
+		justify-content: space-between;
+	}
+	.promotion-postcards-small-1{
+		width: 360px;
+		height: 270px;
+		border: 1px solid #f69;
+	}
+	.promotion-postcards-small-2{
+		width: 360px;
+		height: 270px;
+		border: 1px solid #f69;	
+	}
+	.promotion-postcards-small-3{
+		width: 360px;
+		height: 270px;
+		border: 1px solid #f69;
+	}
+	.bui-spacer{
+		width: 1110px;
+		height: 362px;
+		border: 1px solid green;
+		margin-bottom: 32px;
+	}
+	.bui-titil-display{
+		width: 1110px;
+		height: 54px;
+		display: flex;
+		flex-direction: column;
+	}
+	.bui-titil-text-1{
+		width: 1110px;
+		height: 28px;
+		margin: 2px 0;
+		border: 1px solid #c6f;
+		font-size: 20px;
+		font-weight: 700;
+		color: #333;
+	}
+	.bui-titil-text-2{
+		width: 1110px;
+		height: 24px;
+		margin: 2px 0;
+		border: 1px solid #c6f;
+		font-size: 16px;
+		font-weight: 400;
+		color: #6b6b6b;
+	}
+	.region{
+		width: 1110px;
+		height: 292px;
+	}
+	.bui-carousel{
+		position: relative;
+	}
+	.bui-carousel-inner{
+		width: 1110px;
+		height: 292px;
+		display: flex;
+		flex-direction: row;
+	}
+	.bui-carusel-item{
+		width: 207px;
+		height: 290px;
+		border: 1px dotted #000;
+		padding-right: 16px;
 	}
 	.slinks{
 		background-color: #ddbdff;
@@ -334,6 +442,8 @@
 		height: 340px;
 		border: 1px solid grey;
 	}
+
+
 	.footer-menu-track{
 		background-color: #003580;;
 		width: 100%;
