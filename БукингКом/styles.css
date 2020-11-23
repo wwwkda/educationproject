@@ -328,7 +328,7 @@
 	.bodyconstraint{
 		border: 1px solid #000;
 		background-color: #ffff;
-		width: 1460px;
+		width: 100%px;
 		height: 1814px;
 		padding: 35px 0 3px 0;
 	}
