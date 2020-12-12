@@ -343,8 +343,8 @@
 	.promotion-postcards{
 		padding-bottom: 15px;
 		/*width: 1110px;*/
-		height: 270px;
-		border: 1px solid #9f9;
+		height: 275px;
+		border: 1px solid #006;
 		display: flex;
 		justify-content: space-between; /*Элементы отображаются с одинаковыми отступами между ними*/
 	}
@@ -413,16 +413,16 @@
 		flex-direction: column;
 		align-items: flex-start;
 		justify-content: flex-start;
-		border: 1px solid red;
-		color: white;
+		border: 1px solid #fff;
+		color: #fff;
 	}
 	.middle-price h5 {
-		border: 1px solid red;
-		color: white;
+		border: 1px solid #fff;
+		color: #fff;
 		margin: 0;
 	}
 	.price {
-		border: 1px solid red;
+		border: 1px solid #fff;
 	}
 	.promotion-postcards-row{
 		padding-bottom: 15px;
