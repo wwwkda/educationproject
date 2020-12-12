@@ -291,13 +291,13 @@
 
 	}
 	.inputconteyner{
-		/*border: 1px solid red;*/
+		border: 1px solid red; /*внешние границы*/
 		padding: 4px;
 		background-color: #febb02;
 		margin: 20px 0 10px 0;
 		width: 25%;
 	}
-	input{
+	.inputconteyner input{
 		/*border: 1px solid green;*/
 		padding: 0;
 
@@ -340,24 +340,78 @@
 		border: 1px solid #000;
 		background-color: #fff;
 		margin: 0 183px 0 183px;
-		width: 1100px;
+		/*width: 1100px;*/
 		height: 2175px;
 		padding: 10px;
 	}
 	.promotion-postcards{
-		width: 1100px;
+		padding-bottom: 15px;
+		/*width: 1100px;*/
 		height: 275px;
 		border: 1px solid #006;
 		display: flex;
 		justify-content: space-between; /*Элементы отображаются с одинаковыми отступами между ними*/
-		padding-bottom: 15px;
+
 	}
 	.promotion-postcards-large{
-		width: 50%;
+		width: 49%;
 		height: 270px;
 		border: 1px solid #f69;
 
 	}
+	#pc1{
+		background-image: url(https://q-ak.bstatic.com/xdata/images/city/540x270/619964.webp?k=7e2df42a96dbbc8ccb8fa9446e4b63cf7bebe4123a41e387314ce3538eea0df7&o=);
+	}
+	#pc2{
+		background-image: url(https://q-ak.bstatic.com/xdata/images/city/540x270/971982.webp?k=b65c557258d14ccaf06765683a26d8f2bc5088d751af34e0986923daa72eab98&o=); 
+	}
+	.unified-postcard__overlay{
+		width: 50%;
+		border: 1px solid red;
+		padding: 10px 10px 10px;
+	}
+	.unified-postcard-header{
+		font-size: 16px;
+		width: 100%;
+		height: 20%;
+		border: 1px solid red;
+	}
+	h3{
+		margin: 0;
+		display: flex;
+		flex-direction: row;
+	}
+	.flag{
+		padding-left: 10px;
+	}
+	.unified-postcard-city-offers{
+		margin: 0;
+	}
+	
+	.down-block{
+		border: 1px solid red;
+		height: 72%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+		color: #fff;
+		padding: 0 10px;
+	}
+	.block-prace{
+		border: 1px solid #fff;
+		padding: 1%;
+	}
+	.middle-price{
+		border: 1px solid #fff;
+		/*display: flex;
+		justify-content: center;*/
+	}
+	.price{
+		border: 1px solid #fff;
+		display: flex;
+		justify-content: center;
+	}	
+
 	.promotion-postcards-row{
 		padding-bottom: 15px;
 		width: 100%;
@@ -370,49 +424,58 @@
 		width: 32%;
 		height: 270px;
 		border: 1px solid #f69;
+
+	}
+	#pc3{ 
+		background-image: url(https://r-ak.bstatic.com/xdata/images/city/540x270/685129.webp?k=3395749e00721ed55fb40c09342c823ad184f76f63841c269ee792bce3dbaf90&o=);
+	}
+	#pc4{
+		background-image: url(https://r-ak.bstatic.com/xdata/images/city/540x270/971352.webp?k=e60b6789bf1ef865daa29402a8b8c69dd495df90fd4859e0b9f8525592476116&o=);
+	}
+	#pc5{
+		background-image: url(https://q-ak.bstatic.com/xdata/images/city/540x270/685141.webp?k=f6ff32915e55f5a3aba4d08a7934b1d4c39bdbd67018356ebb50326744c1fbdf&o=);
+		
 	}
 	.bui-spacer{
 		width: 1100px;
-		height: 362px;
+		height: 370px;
 		border: 1px solid green;
 		margin-bottom: 32px;
 	}
 	.bui-titil-display{
-		width: 1100px;
-		height: 54px;
+		width: 100%;
+		height: 60px;
 		display: flex;
 		flex-direction: column;
+		border: 1px solid #006;
 	}
-	.bui-titil-text-1{
-		width: 1100px;
-		height: 28px;
-		margin: 2px 0;
+	.bui-font-display{
+		width: 100%;
+		height: 30px;
 		border: 1px solid #c6f;
 		font-size: 20px;
 		font-weight: 700;
 		color: #333;
 	}
-	.bui-titil-text-2{
-		width: 1100px;
-		height: 24px;
-		margin: 2px 0;
+	.bui-font-display-subtitle{
+		width: 100%;
+		height: 25px;
 		border: 1px solid #c6f;
 		font-size: 16px;
-		font-weight: 400;
-		color: #6b6b6b;
-	}
-	.region{
-		width: 1100px;
-		height: 292px;
-	}
-	.bui-carousel{
-		position: relative;
+		font-weight: 600;
+		color: #333;
 	}
 	.bui-carousel-inner{
-		width: 1100px;
-		height: 292px;
 		display: flex;
 		flex-direction: row;
+		overflow-x: scroll;
+		position: relative;
+		margin-top: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.bui-carousel{
+
 	}
 	.bui-carusel-item{
 		width: 207px;
@@ -426,8 +489,6 @@
 		height: 340px;
 		border: 1px solid grey;
 	}
-
-
 	.footer-menu-track{
 		background-color: #003580;;
 		width: 100%;
@@ -450,4 +511,7 @@
 		.registeredobject {
 			font-size: 1vw;
 		}
-	}
+	@media(min-width: 992px){
+		.bui-carousel{
+    		margin: 0;
+		}
