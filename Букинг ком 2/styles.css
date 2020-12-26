@@ -14,7 +14,7 @@
 		background-color: #003580;
 	}
 	.header-1110{
-		width: 1110px;
+		width: 1100px;
 		height: 50px;
 		margin: 0 183px;
 		display: flex;
@@ -122,7 +122,7 @@
 		background-color: #003580;
  	}
  	.hedr-downblok-1110{
- 		width: 1110px;
+ 		width: 1100px;
  		height: 150px;
  		display: flex;
  	}
@@ -173,7 +173,7 @@
 	}
 	.coronavirus-main-funnel-banner{
 		display: flex;
-	    width: 1110px;
+	    width: 1100px;
 	    background-color:#fefbf0;
 		
 	}
@@ -241,7 +241,7 @@
 		flex-direction: row;
 		justify-content: center;
 		padding: 5px;
-		width: 1110px;
+		width: 1100px;
 		height: 260px;
 	
 	}
@@ -249,21 +249,21 @@
 		/*margin: 0px 183px;
 		padding: 20px 5px;*/ /*когда используем флексы, марджины и пэддинги не используются для выравнивания на странице*/
 		width: 1100px;
-		border: 1px solid #000;
+		/*border: 1px solid #000;*/
 	}
 	.sb-searchbox-titele{
 		width: 1100px;
-		height: 25px;
+		height: 15px;
 		font-size: 28px;
 		font-weight: 600;
-		color: #333;
+		/*color: #333;*/
 
 	}	
 	.sb-searchbox-subtitele-text{
 		width: 1100px;
 		height: 20px;
-		font-size: 14px;
-		font-weight: 400;
+		font-size: 16px;
+		font-weight: 600;
 		color: #333;
 	}
 	.sb-searchbox-outer{
@@ -298,8 +298,10 @@
 		width: 25%;
 	}
 	.inputconteyner input{
-		border: 1px solid green; /*внутренние границы*/
+		/*border: 1px solid green;*/
 		padding: 0;
+
+
 	}
 	#searchfield, #checkinfield, #checkoutfield, #itfield{
 	    width: 100%;
@@ -307,6 +309,7 @@
 	#searchfield{
 		/*width: 356px;*/
 		height: 52px;
+	
 	}
 	#checkinfield{
 		/*width: 192.800px;*/
@@ -321,14 +324,15 @@
 	#itfield{
 		/*width: 153.600px;*/
 		height: 52px;
-		/*padding: 5px 32px;*/
+		/*padding: 0;*/
 	}
 	.travel-purpose-checkbox{
+
 	}
 	.bodyconstraint{
 		border: 1px solid #000;
 		background-color: #ffff;
-		width: 100%;
+		width: 100%px;
 		height: 1814px;
 		padding: 35px 0 3px 0;
 	}
@@ -336,159 +340,142 @@
 		border: 1px solid #000;
 		background-color: #fff;
 		margin: 0 183px 0 183px;
-		/*width: 1110px;*/
+		/*width: 1100px;*/
 		height: 2175px;
-		padding: 10px 0 0 0;
+		padding: 10px;
 	}
 	.promotion-postcards{
 		padding-bottom: 15px;
-		/*width: 1110px;*/
+		/*width: 1100px;*/
 		height: 275px;
 		border: 1px solid #006;
 		display: flex;
 		justify-content: space-between; /*Элементы отображаются с одинаковыми отступами между ними*/
+
 	}
 	.promotion-postcards-large{
 		width: 49%;
 		height: 270px;
 		border: 1px solid #f69;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
+
 	}
-	#pc1 {
-		/*background-image: url('./image/spas-na-krovi.jpg');*/
-		background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/620004.webp?k=55e4854fef3cbb99a0af05650b27f4d3df84646bd30dda1134f51c3abb4c8e6a&o=);
-		background-repeat: no-repeat;
-		background-position: center center; 
-		background-size: cover;
+	#pc1{
+		background-image: url('./image/lissabon2.png');
 	}
-	.in-postcard-top-block{
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
+	#pc2{
+		background-image: url(https://q-ak.bstatic.com/xdata/images/city/540x270/971982.webp?k=b65c557258d14ccaf06765683a26d8f2bc5088d751af34e0986923daa72eab98&o=); 
+	}
+	.unified-postcard__overlay{
+		width: 50%;
+		border: 1px solid red;
+		padding: 10px 10px 10px;
+	}
+	.unified-postcard-header{
+		font-size: 16px;
 		width: 100%;
+		height: 20%;
 		border: 1px solid red;
-		height: 25%;
 	}
-	.in-postcard-header {
-		border: 1px solid red;
+	h3{
+		margin: 0;
 		display: flex;
 		flex-direction: row;
-		width: 100%;
 	}
-	.in-postcard-header h3 {
-		width: 50%;
-		height: fit-content;/*в данном случае высота блока будет зависеть от высоты его содержимого(т.е. размера шрифта)*/
-		border: 1px solid red;
+	.flag{
+		padding-left: 10px;
+	}
+	.unified-postcard-city-offers{
 		margin: 0;
 	}
-	.icon-flag{
-		width: 50%;
-		border: 1px solid red;
-		font-size: 14px;
-	}
-	.checkin-variants{
-		display: flex;
-		flex-direction: row;
-		justify-content: flex-start;
-		align-items: center;
-		width: 50%;
-		height: fit-content;
-		border: 1px solid red;
-	}
-	.checkin-variants h6 {
-		margin: 0;
-	}
+	
 	.down-block{
 		border: 1px solid red;
-		height: 74%;
+		height: 72%;
 		display: flex;
 		justify-content: flex-end;
 		align-items: flex-end;
+		color: #fff;
+		padding: 0 10px;
 	}
-	.middle-price {
+	.block-prace{
+		border: 1px solid #fff;
+		padding: 1%;
+	}
+	.middle-price{
+		border: 1px solid #fff;
+		/*display: flex;
+		justify-content: center;*/
+	}
+	.price{
+		border: 1px solid #fff;
 		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: flex-start;
-		border: 1px solid #fff;
-		color: #fff;
-	}
-	.middle-price h5 {
-		border: 1px solid #fff;
-		color: #fff;
-		margin: 0;
-	}
-	.price {
-		border: 1px solid #fff;
-	}
+		justify-content: center;
+	}	
+
 	.promotion-postcards-row{
 		padding-bottom: 15px;
-		width: 1110px;
+		width: 100%;
 		height: 270px;
 		border: 1px solid #9f9;
 		display: flex;
 		justify-content: space-between;
 	}
-	.promotion-postcards-small-1{
-		width: 360px;
+	.promotions-postcards-small{
+		width: 32%;
 		height: 270px;
 		border: 1px solid #f69;
+
 	}
-	.promotion-postcards-small-2{
-		width: 360px;
-		height: 270px;
-		border: 1px solid #f69;	
+	#pc3{ 
+		background-image: url(https://r-ak.bstatic.com/xdata/images/city/540x270/685129.webp?k=3395749e00721ed55fb40c09342c823ad184f76f63841c269ee792bce3dbaf90&o=);
 	}
-	.promotion-postcards-small-3{
-		width: 360px;
-		height: 270px;
-		border: 1px solid #f69;
+	#pc4{
+		background-image: url(https://r-ak.bstatic.com/xdata/images/city/540x270/971352.webp?k=e60b6789bf1ef865daa29402a8b8c69dd495df90fd4859e0b9f8525592476116&o=);
+	}
+	#pc5{
+		background-image: url(https://q-ak.bstatic.com/xdata/images/city/540x270/685141.webp?k=f6ff32915e55f5a3aba4d08a7934b1d4c39bdbd67018356ebb50326744c1fbdf&o=);
+		
 	}
 	.bui-spacer{
-		width: 1110px;
-		height: 362px;
+		width: 1100px;
+		height: 370px;
 		border: 1px solid green;
 		margin-bottom: 32px;
 	}
 	.bui-titil-display{
-		width: 1110px;
-		height: 54px;
+		width: 100%;
+		height: 60px;
 		display: flex;
 		flex-direction: column;
+		border: 1px solid #006;
 	}
-	.bui-titil-text-1{
-		width: 1110px;
-		height: 28px;
-		margin: 2px 0;
+	.bui-font-display{
+		width: 100%;
+		height: 30px;
 		border: 1px solid #c6f;
 		font-size: 20px;
 		font-weight: 700;
 		color: #333;
 	}
-	.bui-titil-text-2{
-		width: 1110px;
-		height: 24px;
-		margin: 2px 0;
+	.bui-font-display-subtitle{
+		width: 100%;
+		height: 25px;
 		border: 1px solid #c6f;
 		font-size: 16px;
-		font-weight: 400;
-		color: #6b6b6b;
-	}
-	.region{
-		width: 1110px;
-		height: 292px;
-	}
-	.bui-carousel{
-		position: relative;
+		font-weight: 600;
+		color: #333;
 	}
 	.bui-carousel-inner{
-		width: 1110px;
-		height: 292px;
 		display: flex;
 		flex-direction: row;
+		overflow-x: scroll;
+		position: relative;
+		margin-top: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.bui-carousel{
+
 	}
 	.bui-carusel-item{
 		width: 207px;
@@ -502,8 +489,6 @@
 		height: 340px;
 		border: 1px solid grey;
 	}
-
-
 	.footer-menu-track{
 		background-color: #003580;;
 		width: 100%;
@@ -526,4 +511,7 @@
 		.registeredobject {
 			font-size: 1vw;
 		}
-	}
+	@media(min-width: 992px){
+		.bui-carousel{
+    		margin: 0;
+		}
