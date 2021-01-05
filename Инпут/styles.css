@@ -267,16 +267,72 @@
 		color: #333;
 	}
 	.sb-searchbox-outer{
+		width: 1100px;
+		height: 96px;
+		border: 1px solid #000;
+	}
+	.sb-searchbox--painted{
+		font-size: 14px;
+    	line-height: 20px;
+    	font-weight: 400;
+	}
+	.xp-fieldset{
+		color: #333;
+	    /*border: 0;*/
+	    /*display: table;*/
+	    background-color: #febb02;
+	    padding: 4px;
+	    border-radius: 4px;
+	    margin: 24px 0 16px;
+	    /*position: relative;*/
+	   /* width: 100%;*/
+	    /*box-sizing: border-box;*/
+	    	}
+	.xp-input-group{
+		display: flex;
+		flex-direction: row;
+	}
+	.inputconteyner{
+		/*border: 1px solid #e52325;*/
+		width: 25%;
+	}
+	#noname1, #noname2, #noname3, #noname4{
+		height: 52px;
+		width: 100%;
+	}
+	#noname2, #noname3, #noname4{
+		/*margin-left: 4px;*/
+	}
+	
+	.xp-button{
+		/*padding-left: 4px;*/
+		/*height: 52px;*/
+	}
+	#noname4{
+	    /*font-size: 20px;
+	    line-height: 28px;
+	    font-weight: 500;
+	    border: 0;
+	    border-radius: 2px;*/
+	    color: #fff;
+	    /*height: 52px;*/
+	    /*min-width: 100%!important;
+	    margin: 0;
+	    white-space: nowrap;*/
+	    /*padding: 5px 32px;*/
+	    background-color: #0071c2;
+	    height: 52px;
+	}
+
+	/*.sb-searchbox-outer{
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		width: 1100px;
 		height: 96px;
-	
 	}
 	.bui-checkbox-xp-travel-purpose {
 		width: 100%;
-		/*display: flex;*/
 		flex-direction: column;
 	}
 	.serarch-form {
@@ -288,277 +344,30 @@
 	.search{
 		display: flex;
 		flex-direction: row;
-
 	}
 	.inputconteyner{
-		border: 1px solid red; /*внешние границы*/
+		border: 1px solid red; /*внешние границы
 		padding: 4px;
 		background-color: #febb02;
 		margin: 20px 0 10px 0;
 		width: 25%;
 	}
 	.inputconteyner input{
-		/*border: 1px solid green;*/
+		/*border: 1px solid green;
 		padding: 0;
-
-
 	}
 	#searchfield, #checkinfield, #checkoutfield, #itfield{
 	    width: 100%;
 	}
 	#searchfield{
-		/*width: 356px;*/
 		height: 52px;
-	
 	}
 	#checkinfield{
-		/*width: 192.800px;*/
 		height: 52px;
-		/*padding: 0 4px;*/
 	} 
 	#checkoutfield{
-		/*width: 227.600px;*/
 		height: 52px;
-		/*padding: 0 40px 0 46px;*/
 	}
 	#itfield{
-		/*width: 153.600px;*/
 		height: 52px;
-		/*padding: 0;*/
-	}
-	.travel-purpose-checkbox{
-
-	}
-	.bodyconstraint{
-		/*border: 1px solid #000;*/
-		background-color: #ffff;
-		width: 91%;
-		height: 2000px;
-		padding: 35px 0 3px 0;
-	}
-	.bodyconstraint-inner{
-		/*border: 1px solid #000;*/
-		background-color: #fff;
-		margin: 0 183px 0 183px;
-		/*width: 1100px;*/
-		height: 2175px;
-		padding: 10px;
-	}
-	.promotion-postcards{
-		padding-bottom: 15px;
-		/*width: 1100px;*/
-		height: 275px;
-		/*border: 1px solid #006;*/
-		display: flex;
-		justify-content: space-between; /*Элементы отображаются с одинаковыми отступами между ними*/
-
-	}
-	.promotion-postcards-large{
-		width: 49%;
-		height: 270px;
-		/*border: 1px solid #f69;
-*/
-	}
-	#pc1{
-		background-image: url(https://q-ak.bstatic.com/xdata/images/city/540x270/619964.webp?k=7e2df42a96dbbc8ccb8fa9446e4b63cf7bebe4123a41e387314ce3538eea0df7&o=);
-	}
-	#pc2{
-		background-image: url(https://q-ak.bstatic.com/xdata/images/city/540x270/971982.webp?k=b65c557258d14ccaf06765683a26d8f2bc5088d751af34e0986923daa72eab98&o=); 
-	}
-	.unified-postcard__overlay{
-		width: 50%;
-		/*border: 1px solid red;*/
-		padding: 10px 10px 10px;
-		text-shadow: 1px 1px 1px #000;
-	}
-	.unified-postcard-header{
-		font-size: 16px;
-		width: 100%;
-		height: 20%;
-		color: #fff	;
-		/*border: 1px solid red;*/
-	}
-
-	h3{
-		margin: 0;
-		display: flex;
-		flex-direction: row;
-	}
-	.flag{
-		padding-left: 10px;
-	}
-	.unified-postcard-city-offers{
-		margin: 0;
-	}
-	
-	.down-block{
-		/*border: 1px solid red;*/
-		height: 72%;
-		display: flex;
-		justify-content: flex-end;
-		align-items: flex-end;
-		color: #fff;
-		padding: 0 10px;
-	}
-	.block-prace{
-		/*border: 1px solid #fff*/;
-		padding: 1%;
-		background-color: #333;
-	}
-	.middle-price{
-		/*border: 1px solid #fff;*/
-		/*display: flex;
-		justify-content: center;*/
-	}
-	.price{
-		/*border: 1px solid #fff;*/
-		display: flex;
-		justify-content: center;
-	}	
-
-	.promotion-postcards-row{
-		padding-bottom: 15px;
-		width: 100%;
-		height: 270px;
-		/*border: 1px solid #9f9;*/
-		display: flex;
-		justify-content: space-between;
-	}
-	.promotions-postcards-small{
-		width: 32%;
-		height: 270px;
-		/*border: 1px solid #f69;*/
-
-	}
-	#pc3{ 
-		background-image: url(https://r-ak.bstatic.com/xdata/images/city/540x270/685129.webp?k=3395749e00721ed55fb40c09342c823ad184f76f63841c269ee792bce3dbaf90&o=);
-	}
-	#pc4{
-		background-image: url(https://r-ak.bstatic.com/xdata/images/city/540x270/971352.webp?k=e60b6789bf1ef865daa29402a8b8c69dd495df90fd4859e0b9f8525592476116&o=);
-	}
-	#pc5{
-		background-image: url(https://q-ak.bstatic.com/xdata/images/city/540x270/685141.webp?k=f6ff32915e55f5a3aba4d08a7934b1d4c39bdbd67018356ebb50326744c1fbdf&o=);
-		
-	}
-	.bui-spacer{
-		width: 1100px;
-		height: 370px;
-	/*	border: 1px solid green;*/
-		margin-bottom: 32px;
-	}
-	.bui-titil-display{
-		width: 100%;
-		height: 60px;
-		display: flex;
-		flex-direction: column;
-		/*border: 1px solid #006;*/
-	}
-	.bui-font-display{
-		width: 100%;
-		height: 30px;
-	/*	border: 1px solid #c6f;*/
-		font-size: 20px;
-		font-weight: 700;
-		color: #333;
-	}
-	.bui-font-display-subtitle{
-		width: 100%;
-		height: 25px;
-		/*border: 1px solid #c6f;*/
-		font-size: 16px;
-		font-weight: 600;
-		color: #333;
-	}
-	.bui-carousel-inner{
-		display: flex;
-		flex-direction: row;
-		overflow-x: scroll;
-		position: relative;
-		margin-top: 0;
-		padding-left: 0;
-		padding-right: 0;
-		list-style: none;
-		
-	}
-	.bui-carousel{
-
-	}
-	.bui-carusel-item{
-		/*width: 207px;
-		height: 290px;*/
-		border: 1px dotted #000;
-		padding-right: 15px;
-	}
-	.bui-card-image{
-		width: 250px;
-		height: 250px;
-		/*object-fit: cover;*/
-	}
-	.bui-card-title-container{
-		display: flex;
-		flex-direction: column;
-		padding: 10px;
-	}
-	.bui-card-title{
-		/*font-size: 16px;*/
-	}
-	.bui-f-font-display-two{
-		font-size: 24px;
-		font-weight: 700;
-
-	}
-	.bui-card-image-container{
-		position: relative;
-	}
-	.bui-card-header{
-		/*position: relative;*/
-	}
-	.bui-card-header-info{
-		border: 1px solid red;
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		padding: 5px;
-		width: 95%;
-		margin-bottom: 5px;
-	}
-	.bui-card-title{
-		font-size: 14px;
-		font-weight: 700;
-		line-height: 24px;
-		color: #fff;
-		margin: 0;
-	}
-	.bui-card-subtitle{
-		font-size: 14px;
-		font-weight: 00;
-		line-height: 20px;
-		color: #fff;
-		margin: 0;
-	}
-
-	
-	/*@media(max-width: 1001px)
-	{
-		.bui{
-			min-width: 168px;
-		}
-		@media(max-width: 1001px)
-	{
-		.curensi
-			min-width: 168px;
 	}*/
-	@media(min-width: 1800px){
-		.registeredobject {
-			font-size: 1vw;
-		}
-	@media(min-width: 992px){
-		.bui-carousel{
-    		margin: 0;
-		}
-	/*@media (min-width: 992px){
-		.bui-card__title{
-    		font-size: 16px;
-    		font-weight: 700;
-    		line-height: 24px;
-    	}*/
