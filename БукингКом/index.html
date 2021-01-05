@@ -892,12 +892,12 @@
 			<div class="d-index-section">
 				<h2 class="bui-f-font-display-two">Наши любимые направления</h2>
 				<ul class="ia-tab" role="tablist">
-					<li class="ia-tab-btn" role="tab">Регионы</li>
-					<li class="ia-tab-btn" role="tab">Города</li>
-					<li class="ia-tab-btn" role="tab">Ориентиры</li>
+					<li onclick="showRegions()" class="ia-tab-btn" role="tab">Регионы</li>
+					<li onclick="showCities()"  class="ia-tab-btn" role="tab">Города</li>
+					<li onclick="showDirections()"  class="ia-tab-btn" role="tab">Ориентиры</li>
 				</ul>
 				<ul class="ia-body-clearfix">
-					<li class="ia-section">
+					<li id="regions" class="ia-section">
 						<ul class="ia-section-container">
 							<li class="ia-section-item">
 								<a class="ia-link" href="">Краснодарский край</a><br>
@@ -978,7 +978,7 @@
 						</ul>
 					</li>
 						
-					<li class="ia-section">
+					<li id="cities" class="ia-section">
 						<ul class="ia-section-container">
 							<li class="ia-section-item">
 								<a class="ia-link" href="">Скоро будет</a><br>
@@ -1064,7 +1064,7 @@
 								<a class="ia-link" href="">Скоро будет</a><br>
 								<span class="ia-hotelnum">Количество вариантов</span>
 							</li>
-							<li class="ia-section-item"><br>
+							<li class="ia-section-item">
 								<a class="ia-link" href="">Скоро будет</a><br>
 								<span class="ia-hotelnum">Количество вариантов</span>
 							</li>
@@ -1228,7 +1228,7 @@
 					</li>
 						
 						
-					<li class="ia-section">
+					<li id="directions" class="ia-section">
 						<ul class="ia-section-container">
 							<li class="ia-section-item">
 								<a class="ia-link" href="">Скоро будет</a><br>
@@ -1317,7 +1317,52 @@
 		</div>
 	</div>
 
-	
+	<script>
+		
+		const showRegions = function(){
+			let elem = document.getElementById('regions');
+			let hiddenElements = document.querySelectorAll('.ia-section');
+			hiddenElements.forEach(elem => {
+				elem.style.display = 'none';
+			})
+			// console.log(elem)
+			elem.style.display = 'flex'
+			
+			let tabElements = document.querySelectorAll('.ia-tab-btn')
+			tabElements.forEach(elem =>  {
+				elem.classList.remove('active')
+			})
+			event.target.classList.add('active')
+		}
+		const showCities = function(){
+			let elem = document.getElementById('cities');
+			let hiddenElements = document.querySelectorAll('.ia-section');
+			hiddenElements.forEach(elem => {
+				elem.style.display = 'none';
+			})
+			// console.log(elem)
+			elem.style.display = 'flex'
+			let tabElements = document.querySelectorAll('.ia-tab-btn')
+			tabElements.forEach(elem =>  {
+				elem.classList.remove('active')
+			})
+			event.target.classList.add('active')
+		}
+		const showDirections = function(){
+			let elem = document.getElementById('directions');
+			let hiddenElements = document.querySelectorAll('.ia-section');
+			hiddenElements.forEach(elem => {
+				elem.style.display = 'none';
+			})
+			// console.log(elem)
+			elem.style.display = 'flex'
+			let tabElements = document.querySelectorAll('.ia-tab-btn')
+			tabElements.forEach(elem =>  {
+				elem.classList.remove('active')
+			})
+			event.target.classList.add('active')
+		}				
+	</script>
 	
 
 </body>
