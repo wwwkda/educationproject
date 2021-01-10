@@ -284,45 +284,38 @@
 	    padding: 4px;
 	    border-radius: 4px;
 	    margin: 24px 0 16px;
-	    /*position: relative;*/
-	   /* width: 100%;*/
-	    /*box-sizing: border-box;*/
-	    	}
+	}
 	.xp-input-group{
 		display: flex;
 		flex-direction: row;
+		height: 52px;
+
 	}
 	.inputconteyner{
-		/*border: 1px solid #e52325;*/
 		width: 25%;
-	}
-	#noname1, #noname2, #noname3, #noname4{
-		height: 52px;
+		/*height: 52px;*/
+	}		
+	.noname1{
+		color: #fff;
 		width: 100%;
+	    
 	}
-	#noname2, #noname3, #noname4{
-		/*margin-left: 4px;*/
+	.noname2{
+		color: #fff;
+	    margin-left: 4px;
+	    width: 100%;
+	}
+	.noname3{
+		color: #fff;
+	   	margin-left: 4px;x
+	    width: 100%;
+	}
+
+	.xp-button{
+		padding-left: 4px;
 	}
 	
-	.xp-button{
-		/*padding-left: 4px;*/
-		/*height: 52px;*/
-	}
-	#noname4{
-	    /*font-size: 20px;
-	    line-height: 28px;
-	    font-weight: 500;
-	    border: 0;
-	    border-radius: 2px;*/
-	    color: #fff;
-	    /*height: 52px;*/
-	    /*min-width: 100%!important;
-	    margin: 0;
-	    white-space: nowrap;*/
-	    /*padding: 5px 32px;*/
-	    background-color: #0071c2;
-	    height: 52px;
-	}
+	
 
 	/*.sb-searchbox-outer{
 		display: flex;
