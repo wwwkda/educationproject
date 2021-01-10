@@ -526,6 +526,7 @@
 		font-size: 14px;
 		font-weight: 700;
 		line-height: 24px;
+
 		/*color: #fff;*/
 		margin: 0;
 	}
@@ -556,6 +557,9 @@
 		width: 100%;
 		height: auto;
 	}
+	.title-white {
+		color: white;
+	}
 	.b-popular-acc-types{
 		/*border: 1px solid #000;*/
 		margin: 6px;
@@ -576,6 +580,7 @@
 	.slinks{
 		border: 1px solid #000;
 		width: 1096px;
+		min-width: 620px;
 		padding: 7px;
 		margin-top: 70px;
 	}
@@ -600,7 +605,7 @@
 		list-style: none;
 		overflow: hidden;
 	}
-	.ia-tab-btn-active{
+	.active{
 		font-size: 17px;
 		background-color: #0071c2;
 		color: #fff;
@@ -646,6 +651,7 @@
     	font-size: 13px;
     	line-height: 16px;
 	}
+/*<<<<<<< HEAD
 	.bui-card-title{
 		font-size: 14px;
     	line-height: 20px;
@@ -701,11 +707,10 @@
 	}
 
 
-	
-	
-
-
-
+=======*/
+	#cities, #directions {
+		display: none;
+	}
 	/*@media(max-width: 1001px)
 	{
 		.bui{

@@ -298,7 +298,7 @@
 		width: 25%;
 	}
 	.inputconteyner input{
-		/*border: 1px solid green;*/
+		border: 1px solid green;
 		padding: 0;
 
 
@@ -307,7 +307,7 @@
 	    width: 100%;
 	}
 	#searchfield{
-		/*width: 356px;*/
+		/*width: 356px;
 		height: 52px;
 	
 	}
@@ -324,6 +324,7 @@
 	#itfield{
 		/*width: 153.600px;*/
 		height: 52px;
+	}
 		/*padding: 0;*/
 	}
 	.travel-purpose-checkbox{
@@ -361,6 +362,7 @@
 	}
 	#pc1{
 		background-image: url(https://q-ak.bstatic.com/xdata/images/city/540x270/619964.webp?k=7e2df42a96dbbc8ccb8fa9446e4b63cf7bebe4123a41e387314ce3538eea0df7&o=);
+
 	}
 	#pc2{
 		background-image: url(https://q-ak.bstatic.com/xdata/images/city/540x270/971982.webp?k=b65c557258d14ccaf06765683a26d8f2bc5088d751af34e0986923daa72eab98&o=); 
@@ -378,7 +380,6 @@
 		color: #fff	;
 		/*border: 1px solid red;*/
 	}
-
 	h3{
 		margin: 0;
 		display: flex;
@@ -428,7 +429,6 @@
 		width: 32%;
 		height: 270px;
 		/*border: 1px solid #f69;*/
-
 	}
 	#pc3{ 
 		background-image: url(https://r-ak.bstatic.com/xdata/images/city/540x270/685129.webp?k=3395749e00721ed55fb40c09342c823ad184f76f63841c269ee792bce3dbaf90&o=);
@@ -630,7 +630,6 @@
     	font-size: 13px;
     	line-height: 16px;
 	}
-
 
 	/*@media(max-width: 1001px)
 	{

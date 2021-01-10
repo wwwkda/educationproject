@@ -892,9 +892,9 @@
 			<div class="d-index-section">
 				<h2 class="bui-f-font-display-two">Наши любимые направления</h2>
 				<ul class="ia-tab" role="tablist">
-					<li class="ia-tab-btn" role="tab">Регионы</li>
-					<li class="ia-tab-btn" role="tab">Города</li>
-					<li class="ia-tab-btn" role="tab">Ориентиры</li>
+					<li onclick="showRegions()" class="ia-tab-btn" role="tab">Регионы</li>
+					<li onclick="showCities()" class="ia-tab-btn" role="tab">Города</li>
+					<li onclick="showDirections()" class="ia-tab-btn" role="tab">Ориентиры</li>
 				</ul>
 				<ul class="ia-body-clearfix">
 					<li class="ia-section">
@@ -1313,11 +1313,436 @@
 						</ul>
 					</li>
 				</ul>
+				<ul class="ia-body-clearfix">
+					<li id="regions" class="ia-section">
+						<ul class="ia-section-container">
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Краснодарский край</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+						</ul>
+					</li>
+						
+					<li id="cities" class="ia-section">
+						<ul class="ia-section-container">
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Cкоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item"><br>
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет </a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item"><br>
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+						</ul>
+					</li>
+						
+						
+					<li id="directions" class="ia-section">
+						<ul class="ia-section-container">
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+							<li class="ia-section-item">
+								<a class="ia-link" href="">Скоро будет</a><br>
+								<span class="ia-hotelnum">Количество вариантов</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
 
-	
+	<script>
+		<li onclick="showRegions" class="ia-tab-btn" role="tab">Регионы</li>
+					<li onclick="showCities" class="ia-tab-btn" role="tab">Города</li>
+					<li onclick="showDirections"
+		const showRegions = function(){
+			let elem = document.getEelementById('regions');
+			console.log(elem)
+		}			
+	</script>
 	
 
 </body>
