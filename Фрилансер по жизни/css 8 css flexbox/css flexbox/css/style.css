@@ -59,6 +59,6 @@ span{
 		width: 100%;		
 	}
 	.item:hover {
-			flex-grow: 30%;
-		}
+		flex-grow: 30%;
+	}
 }
