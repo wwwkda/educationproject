@@ -1,0 +1,64 @@
+
+body{
+}
+
+.xpi-content-wrapper{
+		background: #f5f5f5;
+	    width: 100%;
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: center;
+	}
+	.xpi-content-wrappergray{
+		
+	}
+	.xpi-searchbox{
+		width: 1100px;
+	}
+	.sb-searchbox-titele{
+		width: 1100px;
+		height: 15px;
+		font-size: 28px;
+		font-weight: 600;
+	}	
+	.sb-searchbox-subtitele-text{
+		width: 1100px;
+		height: 20px;
+		font-size: 16px;
+		font-weight: 600;
+		color: #333;
+	}
+	.sb-searchbox-outer{
+		/*border: 1px solid #000;*/
+		margin: 15px 0px;
+		width: 1110px;
+		height: 60px;
+	}
+	.bui-checkbox-xp-travel-purpose {
+		/*border: 1px solid #000;*/
+		padding: 4px;
+		background-color: #febb02;
+	}
+	.nonameinput{
+		width: 24%;
+		height: 44px;
+		border-radius: 4px;
+		border-color: #fff;
+		text-align: center;
+	}
+	.serarch-form-bottom{
+		/*border: 1px solid #000;*/
+		display: flex;
+		justify-content: flex-start;
+	}
+	.bui-checkbox-botton-input{
+		margin: 0px; 
+		height: 20px;
+		width: 20px;
+		border-color: #bdbdbd;
+	}
+	.bui-checkbox-botton-label{
+		padding: 0px 5px;
+		text-align: center;
+	}
+	
