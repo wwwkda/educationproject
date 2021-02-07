@@ -255,7 +255,7 @@
 	    width: 100%;
 	    display: flex;
 	    justify-content: center;
-	    padding: 30px 30px; 
+	    padding: 30px 0px; 
 	}
 	.xpi-content-wrappergray{
 		
@@ -311,8 +311,10 @@
 	}
 
 	.bodyconstraint{
+    display: flex;
+    justify-content: center;
 		background-color: #ffff;
-		width: 91%;
+		width:100%;
 		padding: 35px 0 3px 0;
 	}
 	.bodyconstraint-inner{
@@ -323,14 +325,16 @@
 	}
 	.promotion-postcards{
 		padding-bottom: 15px;
-		height: 275px;
+		height: auto;
 		display: flex;
 		justify-content: space-between; /*Элементы отображаются с одинаковыми отступами между ними*/
 
 	}
 	.promotion-postcards-large{
 		width: 49%;
-		height: 270px;
+		height: 353px;
+    background-size: cover;
+    background-repeat: no-repeat;
 	}
 	#pc1{
 		background-image: url(https://q-ak.bstatic.com/xdata/images/city/540x270/619964.webp?k=7e2df42a96dbbc8ccb8fa9446e4b63cf7bebe4123a41e387314ce3538eea0df7&o=);
@@ -535,11 +539,20 @@
 	}
 	.slinks{
 		/*border: 1px solid #000;*/
-		width: 1100px;
+		/*width: 1100px;*/
 		min-width: 620px;
-		padding: 7px;
+		padding: 7px 0px;
 		margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 	}
+  .clearfix {
+    width: 1100px;
+  }
+  .discover-index {
+    width: 1100px;
+  }
 	.d-index-section{
 		/*border: 1px solid #000;*/
 		color: #333;
@@ -721,15 +734,16 @@
 	.dcbi-countries{
 		/*border: 1px solid red;*/
 		display: flex;
+    justify-content: space-between;
 		list-style: none;
-    	padding: 0;
-    	margin: 0;
+    padding: 0;
+    margin: 0;
 	}
 	.dcbi-country{
 		/*border: 1px solid green;*/
-		width: 20%;
-   		margin: 0 5px;
-    	padding: 0;
+		width: 19.5%;
+   /*		margin: 0 5px;
+    	padding: 0;*/
 	}
 	
 	.dcibi-country-container{
