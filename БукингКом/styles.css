@@ -821,6 +821,7 @@
 		padding: 50px 0;
 		background-color: #00224f;
 		color: #fff;
+		width: 100%;
 	}
 	.footerconstraint-inner{
 		max-width: 1094px;
@@ -879,7 +880,8 @@
 	}
 	.newsletter-form-footer-container, .footer-wrapper{
 		flex-direction: column;
-
+		width: 100%;
+    max-width: 100%;
 	}
 	.input-newsletter-subscription-to{
 		margin: 0;
@@ -930,6 +932,10 @@
 		background-color: #003580;
     	font-size: 13px;
     	padding: 0;
+    	width: 100%;
+	}
+	.footerForm {
+		width: 100%;
 	}
 	.footer-top-partners{
 		border-bottom: 2px solid #bad4f7;
@@ -1001,15 +1007,18 @@
 	.footer-navigation-links-column{
 	/*	border: 1px solid #000;*/
 		display: flex;
-		justify-content: space-around;
+		justify-content: 
+		space-around;
 		padding: 0;
 		margin: 0;
+		/*flex-direction: column;*/
 	}
 	.footer-navigation-links-list{
 		flex-basis: 20%;
 		/*border: 1px solid #000;*/
 		list-style-type: none;
     	padding: 0px 15px 10px 0;
+    	flex-direction: column;
 	}
 	.footer-navigation-link{
 		/*border: 1px solid #000;*/
