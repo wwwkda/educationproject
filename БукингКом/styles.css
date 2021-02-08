@@ -592,6 +592,7 @@
 		margin-bottom: 32px;
 		/*overflow: visible;*/
 		clear: both;
+		flex-direction: column;
 	}
 	.bui-f-font-display-two{
 		/*border: 1px solid #000;*/
@@ -638,6 +639,7 @@
 	.ia-body-clearfix{
 		/*border: 1px solid #000;*/
 		padding: 0;
+		flex-direction: column;
 	}
 	.ia-section{
 		/* border: 1px solid #000;*/
@@ -656,6 +658,7 @@
 	    margin: 10px 0 0;
 	    list-style: none;
 	    text-decoration: none;
+	    flex-direction: column;
 	}
 	.ia-link{
 		font-size: 14px;
