@@ -1,9 +1,21 @@
+
+	body *{
+		display: flex;
+		align-items: center;
+	}
 	body{
+		flex-direction: column;
 		margin: 0;
+	}
+	.bui-header-bar, .bui-header-tab{
+		height: 55px;
 	}
 	.bui-header{
 		background: #003580;
 		color: #fff;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
 	}
 	.bui-header-bar{
 		padding: 8px 16px;
@@ -197,16 +209,16 @@
 	.coronavirus-info{
 		background-color:#fefbf0;
 		width: 100%;
-		display: flex;
+		flex-direction: column;
 		justify-content: center;
 	}
 	.coronavirus-main-funnel-banner{
 		display: flex;
-	    width: 1100px;
+		justify-content: center;
+	    width: 100%;
 	    background-color:#fefbf0;
 	}
 	.bui-alert-info{
-		display: flex;
 		justify-content: center; /*распледеление флексов вдоль оси*/
 	}
 	.bui-alert-icon{
@@ -217,10 +229,10 @@
 		margin-top: 5px; /*отступ от верхнего края*/
 	}	
 	.bui-alert-description{
-		
+		flex-direction: column;
 		margin: 5px; /*отступ края элемента*/
 		padding: 5px; /*отступ от края границы до текста*/
-		width: 1038px; /*ширина элемента*/
+		width: 100% /*ширина элемента*/
 		height: 108px; /*высота элемента*/
 		color: #333;
 		
@@ -261,6 +273,7 @@
 		
 	}
 	.xpi-searchbox{
+		flex-direction: column;
 
 	}
 	.sb-searchbox-titele{
@@ -276,7 +289,7 @@
 	.sb-searchbox-outer{
 		/*border: 1px solid #000;*/
 		margin: 20px 0 15px 0;
-		width: 1110px;
+		width: 100%;
 	}
 	.bui-checkbox-xp-travel-purpose {
 		/*border: 1px solid #000;*/
@@ -284,7 +297,7 @@
 		background-color: #febb02;
 	}
 	.serarch-form-top{
-		width: 1100px;
+		width: 100%;
 	}
 	.nonameinput{
 		width: 24.36%;
@@ -309,28 +322,32 @@
 		padding: 0px 10px;
 		text-align: center;
 	}
-
 	.bodyconstraint{
     display: flex;
     justify-content: center;
 		background-color: #ffff;
-		width:100%;
+		width: 100%;
 		padding: 35px 0 3px 0;
 	}
 	.bodyconstraint-inner{
+		flex-direction: column;
 		background-color: #fff;
 		margin: 0 183px 0 183px;
-		height: 2175px;
+		height: auto;
+		width: 80%;
 		padding: 10px;
 	}
 	.promotion-postcards{
+		height: 353px;
+		background-size: cover;
+		background-repeat: no-repeat;
 		padding-bottom: 15px;
-		height: auto;
-		display: flex;
+		height: 275px;
 		justify-content: space-between; /*Элементы отображаются с одинаковыми отступами между ними*/
-
 	}
 	.promotion-postcards-large{
+		background-size: cover;
+		background-repeat: no-repeat;
 		width: 49%;
 		height: 353px;
     background-size: cover;
@@ -411,7 +428,8 @@
 		
 	}
 	.bui-spacer{
-		width: 1100px;
+		flex-direction: column;
+		width: 100%;
 		height: 370px;
 	/*	border: 1px solid green;*/
 		margin-bottom: 32px;
@@ -539,9 +557,9 @@
 	}
 	.slinks{
 		/*border: 1px solid #000;*/
-		/*width: 1100px;*/
-		min-width: 620px;
-		padding: 7px 0px;
+		width: 1100px;
+		min-width: 60%;
+		padding: 7px;
 		margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -843,6 +861,10 @@
 		flex-direction: row;
 		justify-content: space-between;
 	}
+	.newsletter-form-footer-container, .footer-wrapper{
+		flex-direction: column;
+
+	}
 	.input-newsletter-subscription-to{
 		margin: 0;
 		font-size: 20px;
@@ -1058,12 +1080,15 @@
 	    padding-bottom: 0;
 	 }
 
+	 @media(max-width: 900px){
+	 	.bui-group{
+	 		flex-wrap: wrap;
+	 		justify-content: flex-end;
+	 	}
+	 }
 
-	
-	/*#cities, #directions {
-		display: none;
-	}
-	@media(min-width: 1800px){
+
+/*	@media(min-width: 1800px){
 		.registeredobject {
 			font-size: 1vw;
 		}
@@ -1071,4 +1096,4 @@
 		.bui-carousel{
     		margin: 0;
 		}
-	
+*/	
