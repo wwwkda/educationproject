@@ -7,7 +7,7 @@
 */
 
 "use strict";
-console.log(Я учу JS);
+console.log("Я учу JS");
 
 // Вариант №1
 // console.log('Учим JS')
