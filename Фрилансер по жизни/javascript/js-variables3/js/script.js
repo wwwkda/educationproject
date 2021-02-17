@@ -10,8 +10,12 @@ let siteUserEye;
 // 	Скопируй значение переменной userName в переменную user.
 // 	Выведи в консоль переменную user. Результат должен быть Вася
 
-let user = "Вася";
-let userName = "Вася";
+let userName, user;
+
+// let userName;
+// let user;
+userName = "Вася";
+user = userName;
 console.log(user);
 
 
@@ -28,6 +32,7 @@ let myage = 36;
 
 //Вариант №3 (верно)
 const BLOCK_SIZE = 14 + 50;
+//console.log(BLOCK_SIZE);
 
 //Вариант №4 (верно)
 const BLOCK_HEIGHT = 100;
@@ -37,6 +42,7 @@ if (true) {
 	var size = 15;
 }
 console.log(size);
+
 
 
 //============================================

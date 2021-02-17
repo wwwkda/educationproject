@@ -156,10 +156,10 @@
       margin: 0 auto;
   }
   .bui-tab-nav{
-    display: block;
-      list-style: none;
-      margin: 0;
-      padding: 0 0 1px;
+    /*display: block;*/ /*убрать все свойства display: block*/
+    list-style: none;
+    margin: 0;
+    padding: 0 0 1px;
   }
   .bui-tab-item{
     user-select: none;
@@ -346,7 +346,7 @@
   .bodyconstraint-inner{
     flex-direction: column;
     background-color: #fff;
-    margin: 0 183px 0 183px;
+    /*margin: 0 183px 0 183px;*/
     height: auto;
     /*width: 80%;*/
     padding: 10px;
@@ -1140,6 +1140,7 @@
     }
     .bui-group{
       justify-content: flex-end;
+      flex-wrap: wrap;
     }
     .bui-group, .bui-tab-nav,{
       flex-wrap: wrap;
@@ -1172,9 +1173,14 @@
     #sign-in{
       order: 6;
     }
+    .bk-icon.-logos-booking-logo-inv {
+      width: 255px;
+      height: 55px;
+    }
+    
     .bui-tab-item{
-      /*justify-content: center;*/
-      width: 10vw;
+      justify-content: center;
+      width: 30vw;
     }
     #housing{
       order: 1;
