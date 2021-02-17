@@ -1,5 +1,13 @@
-  
-  
+
+ /*@media(max-width: 320px) and 
+ (orientation: portrait) {
+    .bui-header-bar, .bui-header-tab {
+      width: fit-content; 
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+   }*/
+
   body * {
     display: flex;
     align-items: center;
@@ -27,7 +35,7 @@
     display: flex;
     /*align-items: center;*/
     max-width: 1140px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     padding-bottom: 8px;
     /*border: 1px solid #ffff;*/
   }
@@ -1122,24 +1130,68 @@
       padding-bottom: 0;
    }
 
+
 @media only screen 
   and (device-width: 320px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .bui-header-bar {
-      height: fit-content;
+      height: fit-content; /*меняет высоту по содержимому*/
     }
-    .bui-group {
+    .bui-group{
+      justify-content: flex-end;
+    }
+    .bui-group, .bui-tab-nav,{
       flex-wrap: wrap;
     }
     .bui-header-tab {
       height: fit-content;
-      flex-wrap: wrap;
     }
     .bui-header-main {
       min-width: 30%;
     }
-    .bui-group-item {
+    .bui-group-item{
+      justify-content: center;
       width: 30vw;
+    }
+    #curency-list{
+      order: 1;
+    }
+    #laguage{
+      order: 3;
+    }
+    #help{
+      order:5;
+    }
+    #registr{
+      order: 2;
+    }
+    #sign{
+      order: 4;
+    }
+    #sign-in{
+      order: 6;
+    }
+    .bui-tab-item{
+      /*justify-content: center;*/
+      width: 10vw;
+    }
+    #housing{
+      order: 1;
+    }
+    #air-tickets{
+      order: 3;
+    }
+    #rent-a-car{
+      order:5;
+    }
+    #registr{
+      order: 2;
+    }
+    #leisure-options{
+      order: 4;
+    }
+    #taxi{
+      order: 6;
     }
   }
