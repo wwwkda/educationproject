@@ -1139,4 +1139,7 @@
     .bui-header-main {
       min-width: 30%;
     }
+    .bui-group-item {
+      width: 30vw;
+    }
   }
