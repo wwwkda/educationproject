@@ -1141,7 +1141,7 @@
   }
   @media only screen 
   and (device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
+ /* and (-webkit-min-device-pixel-ratio: 2)*/
   and (orientation: landscape){
     .bui-header{
       align-items: center;
@@ -1247,5 +1247,4 @@
     #taxi{
       order: 6;
     }*/
-   }
   }
