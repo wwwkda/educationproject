@@ -691,4 +691,3 @@ console.log(!false && 11 || 18 && !'');
 //Вариант №6 В консоле 0. 
 let name = 0; 
 console.log(name ?? "Без имени")
-
