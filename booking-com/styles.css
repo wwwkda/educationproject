@@ -1,264 +1,141 @@
 
- /*@media(max-width: 320px) and 
- (orientation: portrait) {
-    .bui-header-bar, .bui-header-tab {
-      width: fit-content; 
-      flex-wrap: wrap;
-      justify-content: flex-end;
-    }
-   }*/
-
   body * {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
   }
   body {
     display: flex;
     flex-direction: column;
     margin: 0;
   }
-  body > div > div {
+  /*body > div > div {
     max-width: 1140px;
-  }
-  .bui-header-bar, .bui-header-tab{
-    height: 55px;
-  }
-  .bui-header{
-    background: #003580;
-    color: #fff;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+  }*/
+   .bui-header{
+      background: #003580;
+      color: #fff;
+      flex-direction: column;
+      /*width: 100%;*/
+      /*align-items: center;*/
   }
   .bui-header-bar{
-    padding: 8px 16px;
-    display: flex;
-    /*align-items: center;*/
-    max-width: 1140px;
-    /*margin: 0 auto;*/
-    padding-bottom: 8px;
-    /*border: 1px solid #ffff;*/
+      justify-content: space-between;
+      width: 75%;
+      padding: 8px 16px;
+      margin: 0 auto;
+      /*border: 1px solid #ffff;*/
   }
   .bui-header-main{
-    flex-grow: 1;
-    display: flex;
-    padding: 8px 16px 8px 16px;
-    align-items: center;
-    flex-direction: row;
+      flex-grow: 1;
+      align-items: center;
   }
   .bui-header-logo{
+
   }
-  .bui-group{
-    display: flex;
-    text-align: right;
+  .bui-header-group{
+      justify-content: flex-end;
   }
   .bui-group-item{
-    margin: 8px 0 0 8px;
+      margin: 6px 0px 0px 8px;
   }
   .bui-button{
-    border: 1px solid #0071c2;
-    border-radius: 2px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    cursor: pointer;
-    text-decoration: none;
-    vertical-align: middle;
-    min-height: 48px;
-    min-width: 48px;
+      padding: 5px 10px;
+      /*border: 1px solid #0071c2;*/
+      border-radius: 2px;
+      align-items: center;
+      text-decoration: none;
   }
   .bui-button-text{
-    text-align: left;
-    cursor: pointer;
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: inherit;
-    box-sizing: border-box;
-    position: relative;
+      color: #fff;
+      font-size: 16px;
   }
   .bui-avatar{
-    text-align: left;
-    cursor: pointer;
-    font-family: inherit;
-    box-sizing: border-box;
-    position: relative;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #333;
-    color: #fff;
-    text-transform: uppercase;
-    height: 24px;
-    width: 24px;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 700;
+      align-items: center;
+      justify-content: center;
+      background-color: #333;
+      color: #fff;
+      height: 24px;
+      width: 24px;
   }
   .bui-avatar-image{
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
       border-radius: 50%;
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      background-size: cover;
-      background-position: 50%;
-      background-repeat: no-repeat;
-      background-color: #bdbdbd;
   }
-  .bui-button--large.bui-button--light{
-      padding-left: 11px;
-      padding-right: 11px;
-  }
-  .bui-button__icon{
-    fill: currentColor;
-    /*overflow: hidden;*/
-    flex-shrink: 0;
-    width: 24px;
-    height: 24px;
-    margin: 0 auto;
+  .bui-button-icon{
   }
   .bui-traveller-header__product-action, .bui-traveller-header__product{
-    border: 1px solid #fff!important;
-      font-weight: 500;
-  }
-  .bui-header .bui-button {
-      font-weight: 500!important;
+      border: 1px solid #fff!important;
+      /*font-weight: 500;*/
   }
   .bui-button--light{
-      padding-left: 7px;
-      padding-right: 7px;
       background-color: transparent;
       color: #fff;
       border-color: transparent;
-  }
-  .bui-header .bui-button {
-      font-weight: 500!important;
   }
   .bui-button--secondary {
       background-color: #fff;
       color: #0071c2;
       border-color: #0071c2;
   }
-  .bui-button {
-      padding: 7px 15px;
-      box-sizing: border-box;
-      min-height: 36px;
-      min-width: 36px;
-  }
   .bui-header-tab{
-      max-width: 1140px;
-      margin: 0 auto;
+    width: 75%;
+    margin: 0 auto;
   }
   .bui-tab-nav{
-    /*display: block;*/ /*убрать все свойства display: block*/
     list-style: none;
     margin: 0;
     padding: 0 0 1px;
   }
-  .bui-tab-item{
-    user-select: none;
-      text-align: center;
-      display: inline-block;
-      vertical-align: bottom;
-  }
   .bui-tab-link {
-      display: block;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 20px;
-      padding: 16px;
+      padding: 16px 25px 16px 0px;
   }
-  .bui-tab--light .bui-tab--selected{
-      color: #fff;
-  }
-  .bui-tab{
-    display: block;
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 20px;
-      border: 0;
-      background: 0;
-      color: #6b6b6b;
-      padding: 16px;
-      text-decoration: none;
-      /*max-width: none;*/
-      position: relative;
-      width: 100%;
-      box-sizing: border-box;
-      font-family: inherit;
-  }
-  .bui-tab-icon, .bui-tab-title{
-      display: inline-block;
-      vertical-align: middle;
-      margin-right: 8px;
+  .bui-icon{
+      fill: #fff;
   }
   .bui-icon--medium{
       height: 20px;
-  }
-  .bui-icon{
-      display: inline-block;
-      fill: #fff;
-  }
-
+        }
   .bui-icon svg{
-    display: inline-block;
-      vertical-align: top;
       height: 100%;
-      /*width: auto;*/
   }
   .bui-tab-text{
-      display: inline-block;
-      vertical-align: middle;
+      padding-left: 10px;
       color: #fff;
+
   }
 
 
   .coronavirus-info{
     background-color:#fefbf0;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
   }
   .coronavirus-main-funnel-banner{
-    display: flex;
-    justify-content: center;
-      width: 100%;
-      background-color:#fefbf0;
+    width: 75%;
+    margin: 0 auto;
+    /*background-color:#fefbf0;*/
   }
   .bui-alert-info{
     justify-content: center; /*распледеление флексов вдоль оси*/
   }
   .bui-alert-icon{
     fill: #cd8900;
-    margin-right: 16px;
     width: 24px;
     height: 24px;
-    margin-top: 5px; /*отступ от верхнего края*/
+    margin: 15px 0px 0px 15px;
   } 
   .bui-alert-description{
     flex-direction: column;
-    margin: 5px; /*отступ края элемента*/
-    padding: 5px; /*отступ от края границы до текста*/
-    width: 100% /*ширина элемента*/
-    height: 108px; /*высота элемента*/
+    margin: 15px;
+    height: auto;
     color: #333;
-    
   } 
   .bui-alert-title{
     font-size: 16px; /*Размер шрифта*/
     font-weight: 700; /*Насыщенность шрифта*/
-    line-height: 1.2; /*Расстояние между строк*/
+    line-height: 24px; /*Расстояние между строк*/
   }
   .bui-alert-text-a{
-    font-weight: normal;
-    text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 20px;
   }
@@ -266,7 +143,7 @@
     font-weight: normal;
     color: #005c9d;
     font-size: 14px;
-    line-height: 20px;
+    /*line-height: 20px;*/
   }
   .covidrules{
     text-decoration: none;
@@ -277,52 +154,73 @@
 
   .xpi-content-wrapper{
     background: #f5f5f5;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      padding: 30px 0px; 
+    /*width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px; */
   }
   .xpi-content-wrappergray{
+    width: 75%;
+    margin: 0 auto;
     
   }
   .xpi-searchbox{
     flex-direction: column;
+    padding: 44px 5px;
+    width: 100%;
 
   }
   .sb-searchbox-titele{
-    height: 15px;
-    font-size: 28px;
     font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
   } 
   .sb-searchbox-subtitele-text{
-    font-size: 16px;
-    font-weight: 600;
     color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
   }
   .sb-searchbox-outer{
     /*border: 1px solid #000;*/
     margin: 20px 0 15px 0;
-    width: 100%;
+    /*width: 100%;*/
   }
-  .bui-checkbox-xp-travel-purpose {
+  .bui-checkbox-xp-travel-purpose{
     /*border: 1px solid #000;*/
     padding: 4px;
     background-color: #febb02;
+    width: 100%;
   }
   .serarch-form-top{
     width: 100%;
   }
   .nonameinput{
-    /*width: 24.36%;*/
+    width: 25%;
     height: 52px;
     border-radius: 4px;
     border-color: #fff;
     text-align: center;
   }
+  #whentogo, #withwhomtogo, #pricetogo{
+    margin-left: 4px;
+  }
+  .sb-searchbox-withwhomtogo .sb-searchbox-wheretogo{
+    /*flex-grow: 2;*/
+  }
+  .sb-searchbox-pricetogo{
+    background-color: #0071c2;
+
+  }
+
   .serarch-form-bottom{
     /*border: 1px solid #000;*/
-    display: flex;
-    justify-content: flex-start;
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
 
   }
   .bui-checkbox-botton-input{
@@ -1134,27 +1032,60 @@
 @media only screen 
   and (device-width: 320px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .bui-header-bar {
-      height: fit-content; /*меняет высоту по содержимому*/
+  and (orientation: portrait){
+    .bui-header{
+      align-items: center;
     }
-    .bui-group{
+    .bui-header-bar{
+      display: flex;
+      height: fit-content; /*меняет высоту по содержимому*/
+      width: auto;
+      margin: 5px 10px;
+    }
+    .bui-header-main {
+      width: 100%;
+      /*padding: 0;
+      margin: 0 auto;*/
+    }
+    .logos-booking-logo-inv{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+    .bui-header-group{
       justify-content: flex-end;
       flex-wrap: wrap;
     }
-    .bui-group, .bui-tab-nav,{
-      flex-wrap: wrap;
-    }
-    .bui-header-tab {
-      height: fit-content;
-    }
-    .bui-header-main {
-      min-width: 30%;
-    }
     .bui-group-item{
       justify-content: center;
-      width: 30vw;
+      width: 25vw;
     }
+    .bui-header-tab{
+      height: fit-content;
+      width: 100%;
+      overflow: scroll; 
+      /*justify-content: space-around;*/
+      margin: 10px 30px;
+    }
+    .bui-tab-nav{
+      width: fit-content;
+      height: 10vw;
+    }
+    .bui-tab-item{
+      margin: 0 25px;
+      width: 55vw;
+     /* justify-content: space-between;*/
+      /*width: 30vw;*/
+      font-size: 40px;
+    }
+    .bui-tab-item .bui-icon svg{
+      width: 100px;
+      height: 50px;
+    }
+    .bui-tab-text{
+      padding-left: 15px;
+    }
+        
     #curency-list{
       order: 1;
     }
@@ -1165,24 +1096,30 @@
       order:5;
     }
     #registr{
-      order: 2;
+      order: 6;
     }
     #sign{
       order: 4;
     }
     #sign-in{
-      order: 6;
+      order: 2;
     }
-    .bk-icon.-logos-booking-logo-inv {
-      width: 255px;
-      height: 55px;
+    .coronavirus-main-funnel-banner{
+      width: fit-content;
+    }
+    .bui-alert-info .bk-icon svg{
+      width: 24px;
+      height: 24px;
+      margin: 15px 0px 0px 15px;
+    }
+    .bui-alert-title{
+      font-size: 56px;
+      flex-wrap: wrap;
+      line-height: 50px;
     }
     
-    .bui-tab-item{
-      justify-content: center;
-      width: 30vw;
-    }
-    #housing{
+    
+    /*#housing{
       order: 1;
     }
     #air-tickets{
@@ -1199,5 +1136,116 @@
     }
     #taxi{
       order: 6;
+    }*/
+   }
+  }
+  @media only screen 
+  and (device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape){
+    .bui-header{
+      align-items: center;
     }
+    .bui-header-bar{
+      display: flex;
+      height: fit-content; /*меняет высоту по содержимому*/
+      width: auto;
+      margin: 5px 10px;
+    }
+    .bui-header-main {
+      width: 100%;
+      /*padding: 0;
+      margin: 0 auto;*/
+    }
+    .logos-booking-logo-inv{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+    .bui-header-group{
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+    .bui-group-item{
+      justify-content: center;
+      width: 25vw;
+    }
+    .bui-header-tab{
+      height: fit-content;
+      width: 100%;
+      overflow: scroll; 
+      /*justify-content: space-around;*/
+      margin: 10px 30px;
+    }
+    .bui-tab-nav{
+      width: fit-content;
+      height: 10vw;
+    }
+    .bui-tab-item{
+      margin: 0 25px;
+      width: 55vw;
+     /* justify-content: space-between;*/
+      /*width: 30vw;*/
+      font-size: 40px;
+    }
+    .bui-tab-item .bui-icon svg{
+      width: 100px;
+      height: 50px;
+    }
+    .bui-tab-text{
+      padding-left: 15px;
+    }
+        
+    #curency-list{
+      order: 1;
+    }
+    #laguage{
+      order: 3;
+    }
+    #help{
+      order:5;
+    }
+    #registr{
+      order: 6;
+    }
+    #sign{
+      order: 4;
+    }
+    #sign-in{
+      order: 2;
+    }
+    .coronavirus-main-funnel-banner{
+      width: fit-content;
+    }
+    .bui-alert-info .bk-icon svg{
+      width: 24px;
+      height: 24px;
+      margin: 15px 0px 0px 15px;
+    }
+    .bui-alert-title{
+      font-size: 56px;
+      flex-wrap: wrap;
+      line-height: 50px;
+    }
+    
+    
+    /*#housing{
+      order: 1;
+    }
+    #air-tickets{
+      order: 3;
+    }
+    #rent-a-car{
+      order:5;
+    }
+    #registr{
+      order: 2;
+    }
+    #leisure-options{
+      order: 4;
+    }
+    #taxi{
+      order: 6;
+    }*/
+   }
   }
