@@ -6,14 +6,14 @@
     display: flex;
     margin: 0;
     padding: 0;
-    align-items: center;
+    /*align-items: center;*/
   }
   body {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: auto;
   }
   /*body > div > div {
     max-width: 1140px;
@@ -23,18 +23,18 @@
       color: #fff;
       flex-direction: column;
       /*width: 100%;*/
-      align-items: center;
+      /*align-items: center;*/
   }
   .bui-header-bar{
       justify-content: space-between;
-      width: 75%;
+    /*  width: 75%;
       padding: 8px 16px;
-      /*margin: 0 auto;*/
-    /*  border: 1px solid #ffff;*/
+      margin: 0 auto;*/
+      /*border: 1px solid #ffff;*/
   }
   .bui-header-main{
-      /*flex-grow: 1;
-      align-items: center;*/
+      flex-grow: 1;
+      align-items: center;
   }
   .bui-header-logo{
 
@@ -43,29 +43,29 @@
       justify-content: flex-end;
   }
   .bui-group-item{
-      margin: 6px 0px 0px 8px;
+      /*margin: 6px 0px 0px 8px;*/
   }
   .bui-button{
       padding: 5px 10px;
-      border: 1px solid #0071c2;
+      /*border: 1px solid #0071c2;*/
       border-radius: 2px;
       align-items: center;
       text-decoration: none;
   }
   .bui-button-text{
-      /*color: #fff;*/
+      color: #fff;
       font-size: 16px;
   }
   .bui-avatar{
       align-items: center;
       justify-content: center;
-      /*background-color: #333;*/
-     /* color: #fff;*/
+      background-color: #333;
+      color: #fff;
       height: 24px;
       width: 24px;
   }
   .bui-avatar-image{
-      border-radius: 1em;
+      border-radius: 50%;
       width: 100%;
       height: 100%;
   }
@@ -113,7 +113,7 @@
   }
 
 
-  /*/*/*.coronavirus-info{
+  .coronavirus-info{
     background-color:#fefbf0;
   }
   .coronavirus-main-funnel-banner{
@@ -1036,174 +1036,222 @@
    }
 
 
-@media only screen (max-width: 1142px){
-    .bui-header-bar{
-      width: 100%;
-    }
-    .bui-header-main{
-      margin-left: 10px;
-    }
-    .bui-header-group{
-      /*margin: auto 0;*/
-      /*display: flex;*/
-      justify-content: flex-end;
-      flex-wrap: wrap;
-      /*padding right: 5px;*/
-    }
-    .bui-group-item {
-      margin: 5px 10px 5px 5px; 
-    }
-    .bui-header-tab{
-      width: 100%;
-      overflow: scroll;
-    }
-    .bui-tab-nav{
-      width: 100%;
-      margin-left: 10px;
-    }
-  }
-
 @media only screen 
   and (device-width: 320px)
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: portrait){
-   
     .bui-header{
-      width: 100vw;
-      justify-content: space-around;
-      /*border: 2px solid red;*/
+      align-items: center;
     }
     .bui-header-bar{
-      border: 1px solid green;
-      /*width: 100vw;*/
-      height: fit-content;
-      margin: 0; 
-      overflow: scroll;
+      display: flex;
+      height: fit-content; /*меняет высоту по содержимому*/
+      /*width: auto;*/
+      /*margin: 5px 10px;*/
     }
-    .bui-header-main{
-      /*border: 1px solid #fff;*/
-      width: 50vw;
-      height: fit-content;
+    .bui-header-main {
+      width: 100%;
+      padding: 0;
+      margin: 0 auto;
     }
     .logos-booking-logo-inv{
-    
+      width: 100%;
+      height: 100%;
+      /*margin: 0;*/
     }
     .bui-header-group{
-      border: 1px solid #fff;
-     
+      justify-content: flex-end;
+      flex-wrap: wrap;
     }
     .bui-group-item{
-      /*border: 1px solid #fff;*/
-      margin: 5px 5px 5px 5px;
-      width: max-content;
-      justify-content: space-between;
-      flex-direction: row;
-      align-items: baseline;
-    }
-    .bui-button-text{
-      font-size: 12px;
+      justify-content: center;
+      width: 25vw;
     }
     .bui-header-tab{
       height: fit-content;
       width: 100%;
-      overflow: scroll;
+      overflow: scroll; 
+      /*justify-content: space-around;*/
+      /*margin: 10px 30px;*/
     }
     .bui-tab-nav{
-      justify-content: space-between;
-      flex-direction: row;
-      align-items: baseline;
+      width: fit-content;
+      height: 10vw;
     }
     .bui-tab-item{
-      width: max-content;
-      margin: 5px;
+      /*margin: 0 25px;*/
+      width: 55vw;
+     /* justify-content: space-between;*/
+      /*width: 30vw;*/
+      font-size: 40px;
     }
-    .bui-tab-link {
-      padding: 5px 5px 5px 5px;
-    }
-    .bui-icon{
-
+    .bui-tab-item .bui-icon svg{
+      width: 100px;
+      height: 50px;
     }
     .bui-tab-text{
-      font-size: 16px;
+      padding-left: 15px;
     }
+        
+    #curency-list{
+      order: 1;
+    }
+    #laguage{
+      order: 3;
+    }
+    #help{
+      order:5;
+    }
+    #registr{
+      order: 6;
+    }
+    #sign{
+      order: 4;
+    }
+    #sign-in{
+      order: 2;
+    }
+    .coronavirus-main-funnel-banner{
+      width: fit-content;
+    }
+    .bui-alert-info .bk-icon svg{
+      width: 24px;
+      height: 24px;
+      /*margin: 15px 0px 0px 15px;*/
+    }
+    .bui-alert-title{
+      font-size: 56px;
+      flex-wrap: wrap;
+      line-height: 50px;
+    }
+    
+    
+    /*#housing{
+      order: 1;
+    }
+    #air-tickets{
+      order: 3;
+    }
+    #rent-a-car{
+      order:5;
+    }
+    #registr{
+      order: 2;
+    }
+    #leisure-options{
+      order: 4;
+    }
+    #taxi{
+      order: 6;
+    }*/
+   }
   }
-
- @media only screen
+  @media only screen 
   and (device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape){
     .bui-header{
-      width: 100%;
+      align-items: center;
     }
     .bui-header-bar{
-      width: 100%;
-      /*margin-left: 10px;  */
+      display: flex;
+      height: fit-content; /*меняет высоту по содержимому*/
+      /*width: auto;*/
+      /*margin: 5px 10px;*/
     }
-    .bui-header-main{
-      width: 30%;
-      height: fit-content;
+    .bui-header-main {
+      width: 100%;
+      padding: 0;
+      margin: 0 auto;
     }
     .logos-booking-logo-inv{
       width: 100%;
-      margin-left: 15px;
+      height: 100%;
+      /*margin: 0;*/
     }
     .bui-header-group{
-      /*flex-wrap: wrap;*/
-      width: 30%;
-      height: fit-content;
+      justify-content: flex-end;
+      flex-wrap: wrap;
     }
     .bui-group-item{
-      margin: 5px 5px 5px 5px;
       justify-content: center;
-      width: fit-content;
-    }
-    .bui-button-text{
-      font-size: 12px;
+      width: 25vw;
     }
     .bui-header-tab{
       height: fit-content;
       width: 100%;
-      overflow: scroll;
+      overflow: scroll; 
+      /*justify-content: space-around;*/
+      /*margin: 10px 30px;*/
     }
     .bui-tab-nav{
-      justify-content: space-between;
-      flex-direction: row;
-      align-items: baseline;
+      width: fit-content;
+      height: 10vw;
     }
     .bui-tab-item{
-      width: max-content;
-      margin: 5px;
+      /*margin: 0 25px;*/
+      width: 55vw;
+     /* justify-content: space-between;*/
+      /*width: 30vw;*/
+      font-size: 40px;
     }
-    .bui-tab-link {
-      padding: 5px 5px 5px 5px;
-    }
-    /*.bui-tab-item .bui-icon svg{
+    .bui-tab-item .bui-icon svg{
       width: 100px;
       height: 50px;
-    }*/
-    .bui-icon{
-       /* margin: 0px; 10px; 5px; 10px;*/
     }
     .bui-tab-text{
-      font-size: 16px;
+      padding-left: 15px;
     }
         
-    /*#curency-list{
+    #curency-list{
       order: 1;
     }
     #laguage{
-      order: 2;
+      order: 3;
     }
     #help{
-      order:3;
+      order:5;
     }
     #registr{
-      order: 4;
+      order: 6;
     }
     #sign{
-      order: 5;
+      order: 4;
     }
     #sign-in{
+      order: 2;
+    }
+    .coronavirus-main-funnel-banner{
+      width: fit-content;
+    }
+    .bui-alert-info .bk-icon svg{
+      width: 24px;
+      height: 24px;
+      /*margin: 15px 0px 0px 15px;*/
+    }
+    .bui-alert-title{
+      font-size: 56px;
+      flex-wrap: wrap;
+      line-height: 50px;
+    }
+    
+    
+    /*#housing{
+      order: 1;
+    }
+    #air-tickets{
+      order: 3;
+    }
+    #rent-a-car{
+      order:5;
+    }
+    #registr{
+      order: 2;
+    }
+    #leisure-options{
+      order: 4;
+    }
+    #taxi{
       order: 6;
     }*/
   }
